@@ -1,7 +1,7 @@
 {
   "name": "chat-app-socketio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Chat Application using Socket.io",
   "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
@@ -10,9 +10,17 @@
   "engines": {
     "node": "8.11.4"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sachin3691/chat-app-socketio.git"
+  },
+  "author": {
+    "name": "Sachin Thomas",
+    "email": "thomsachin@gmail.com"
+  },
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "socketio": "^1.0.0"
   }
 }
